@@ -23,4 +23,4 @@ git log --graph --all
 ```
 
 3. Q3 : explorez le Web et cloner un projet git de votre choix.
-- R3 : vous avez l'embarras du choix depuis [GitHub](https://github.com)
+- R3 : vous avez l'embarras du choix depuis [GitHub](https://github.com)avec tous les dépôts
