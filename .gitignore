@@ -1,10 +1,14 @@
 # commentaire ligne non exécuté
 # **/ à n'importe quel niveau du repertoire (racine, sous-dossiers, sous sous-dossiers, etc.)
 **/admin
-cours
 **/corrections
+cours
 daily.md
 patches
 tp
 .vscode
+private*
 *excalidraw
+# ignorer tous le fichiers avec extensions .png
+*.png
+# ignorer tous les fichiers qui commence par private
