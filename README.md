@@ -8,6 +8,8 @@
 
 [corrections de tous les ateliers](./ateliers/corrections/)
 
+---
+
 ## Installations
 
 ### GIT
