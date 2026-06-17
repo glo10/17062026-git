@@ -1,9 +1,5 @@
 # Git
 
-## Cours
-
-[Téléchargez le cours depuis ce lien](https://drive.google.com/file/d/1SMbXmZDdeAOHknnSktWx6u82TwKzitvJ/view?usp=sharing)
-
 ## Corrections des ateliers 
 
 [corrections de tous les ateliers](./ateliers/corrections/)
