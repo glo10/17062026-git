@@ -1,7 +1,7 @@
 
 # Résolution d'un conflit
 
-## Contexte
+## Contexte et résolution
 
 1. Un fichier qui évolue dans une branche par exemple main
 - On a fait un commit associé à ce changement
