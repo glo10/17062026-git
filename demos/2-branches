@@ -1,0 +1,13 @@
+# Branches
+
+## Liste des branches
+
+git branch
+
+## Création branche
+
+git branch feature/user
+
+## Créer et se placer sur la nouvelle
+
+git checkout -b feature/product
