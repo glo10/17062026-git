@@ -1,0 +1,22 @@
+# bad: [5e8898572fa63438b57a4b2b1de01a85dc49655e] release: v3.5.8
+# good: [c803e6a107d1bc9a762780d340920e6073e77caf] chore(deps): update lint (#11448)
+git bisect start '5e8898572fa63' 'c803e6a107d1bc'
+# good: [6a5b2098e1c9573fd050b0d56d0f85516f10c32b] workflow: move private packages to separate directory
+git bisect good 6a5b2098e1c9573fd050b0d56d0f85516f10c32b
+# good: [c3ce9fe3d8fc27d864ce7148cd36da882cfc21ab] fix(runtime-dom): avoid unnecessary prop patch for checkbox (#11657)
+git bisect good c3ce9fe3d8fc27d864ce7148cd36da882cfc21ab
+# bad: [706d4ac1d0210b2d9134b3228280187fe02fc971] fix(compiler-core): fix handling of delimiterOpen in VPre (#11915)
+git bisect bad 706d4ac1d0210b2d9134b3228280187fe02fc971
+# good: [3f13203564164eeb2945bdc0b9ef755c37477d75] feat(compiler-core): parse modifiers as expression to provide location data (#11819)
+git bisect good 3f13203564164eeb2945bdc0b9ef755c37477d75
+# good: [b1de75ed04626b6423085dfde91fb0cb481a25e8] fix(compiler-sfc): correct scoped injection for nesting selector (#11854)
+git bisect good b1de75ed04626b6423085dfde91fb0cb481a25e8
+# good: [48613bb928fb9dbaec7824445f2647a0545e322b] refactor(scheduler): simplify checkRecursiveUpdates (#11856)
+git bisect good 48613bb928fb9dbaec7824445f2647a0545e322b
+# bad: [91212fa408e168b1b2012c23c808f658ed37da63] release: v3.5.4
+git bisect bad 91212fa408e168b1b2012c23c808f658ed37da63
+# bad: [b1db66a1a942b6b634b100183c3a8632c60c0c27] chore(deps): upgrade to TypeScript 5.6
+git bisect bad b1db66a1a942b6b634b100183c3a8632c60c0c27
+# good: [e596378e0be728dad7d60938449f3fa557ca2ec9] fix: Revert "fix: Revert "fix(reactivity): self-referencing computed should refresh""
+git bisect good e596378e0be728dad7d60938449f3fa557ca2ec9
+# first bad commit: [b1db66a1a942b6b634b100183c3a8632c60c0c27] chore(deps): upgrade to TypeScript 5.6
